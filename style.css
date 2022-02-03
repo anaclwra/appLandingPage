@@ -1,0 +1,362 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Roboto:wght@300;400;500;700&family=Sora:wght@300;400;500;600;700;800&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.nav-section{
+    display: flex;
+    justify-content: space-around;
+    height: 70px;
+    align-items: center;
+}
+
+.nav-section-nav, .nav-section-nav-item{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    gap: 3rem;
+    text-decoration: none; 
+    color: #6E7275;  
+    font-family: Inter;
+    font-weight: 500;
+    font-size: 18px;
+}
+
+.section-cadastro{
+    height: 640px;
+    display: flex;
+    align-items: center;
+    align-self: center;
+    justify-content: space-evenly;
+    background-color: #EFF8FF;
+}
+
+.section-cadastro-img{
+    width: 500px;
+}
+
+.section-cadastro-div-h1{
+    font-family: Sora;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 60px;
+    color: #293145;
+    margin-bottom: 3rem;
+}
+
+.section-cadastro-div-button{
+    padding: 16px 36px;
+    border-radius: 50px;
+    background-color: #0F9AFE;
+    color: #FFFFFF;
+    border: none;
+    cursor: pointer;
+    font-family: Inter;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+/*FIM SESSAO CADASTRO*/
+
+.sessao-funcionalidades{
+    height: 475px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.sessao-funcionalidades-h2{  
+    font-family: Sora;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 40px;
+    color: #293145;
+}
+
+.sessao-funcionalidades-divs{
+  display: flex;
+  gap: 5rem;
+  text-align: center;   
+  padding-top: 3rem;  
+}
+
+.sessao-funcionalidades-div-sub{
+    font-family: Sora;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    color: #293145;
+    padding-top: 20px;
+}
+
+.sessao-funcionalidades-div-p{
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    color: #6E7275;
+    padding-top: 10px;
+}
+
+/*FIM SESSAO FUNCIONALIDADES*/
+
+.sessao-app{
+    height: 475px;
+    background-color: #EFF8FF;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.sessao-app-div{
+    display: flex;
+    flex-direction: column;
+}
+
+.sessao-app-div-h2{
+    font-family: Sora;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    color: #293145;
+}
+
+.sessao-app-div-p{
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    color: #6E7275;
+    padding-top: 2rem;
+}
+
+.sessao-app-anchors{
+    display: flex;
+    gap: 1rem;
+    padding-top: 2rem;
+}
+
+.sessao-app-anchor{
+    height: 52,17px;
+    width: 165,45px;
+}
+
+/*FIM SESSAO APP*/
+
+.sessao-planos{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 6rem;
+}
+
+.sessao-planos-h2{
+    font-family: Sora;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 40px;
+    color: #293145;
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+}
+
+.sessao-planos-p{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    color: #6E7275;
+    margin-bottom: 4rem;
+}
+
+.sessao-planos-divs{
+    display: flex;
+    gap: 1rem;
+}
+
+.sessao-planos-divs-bronze, .sessao-planos-divs-prata, .sessao-planos-divs-ouro{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    transition: 1s;
+
+}
+
+.sessao-planos-divs-bronze, .sessao-planos-divs-ouro{
+    width: 370px;
+    height: 471px;
+    background-color: #EFF8FF;
+    color: #293145;
+    border-radius: 8px;
+}
+
+.sessao-planos-divs-prata{
+    width: 370px;
+    height: 471px;
+    background-color: #293145;
+    color: #FFFFFF;
+    border-radius: 8px;
+}
+
+.sessao-planos-divs-bronze-title, .sessao-planos-divs-ouro-title{
+    font-family: Sora;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    padding-bottom: 2rem;
+}
+
+.sessao-planos-divs-prata-title{
+    font-family: Sora;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    padding-bottom: 1rem;
+}
+
+.sessao-planos-divs-prata-preferido{
+    background-color: #0F9AFE;
+    padding: 5px 32px;
+    border-radius: 15px;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    margin-bottom: 1rem;
+}
+
+.sessao-planos-divs-prata-valor, .sessao-planos-divs-bronze-valor, .sessao-planos-divs-ouro-valor{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 50px;
+    margin-bottom: 2rem;
+}
+
+.sessao-planos-divs-prata-valor span, .sessao-planos-divs-ouro-valor span, .sessao-planos-divs-bronze-valor span{
+    font-size: 26px;
+}
+
+.sessao-planos-divs-bronze-p, .sessao-planos-divs-ouro-p{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    color: #6E7275;
+}
+
+.sessao-planos-divs-prata-p{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    color: #DBDBDB;
+}
+
+.sessao-planos-divs-btn{
+    background: #0F9AFE;
+    box-shadow: 1px 3px 4px rgba(19, 125, 224, 0.5);
+    border-radius: 50px;
+    color: #FFFFFF;
+    padding: 8px 80px;
+    border: none;
+    margin-top: 2rem;
+    cursor: pointer;
+}
+
+.sessao-planos-divs-bronze:hover, .sessao-planos-divs-ouro:hover, .sessao-planos-divs-prata:hover{
+    margin-top: -3%;
+}
+
+/*FIM SESSAO PLANOS*/
+
+.sessao-contato{
+    height: 382px;
+    background: linear-gradient(rgba(41, 49, 69, 0.7), rgba(41, 49, 69, 0.7)), url(https://images.unsplash.com/photo-1587560699334-cc4ff634909a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.sessao-contato-h2{
+    font-family: Sora;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 40px;
+    color: #FFFFFF;
+    margin-bottom: 2rem;
+}
+
+.sessao-contato-p{   
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    color: #DBDBDB;
+    margin-bottom: 4rem;
+}
+
+.sessao-contato-div-input{
+    outline: 0;
+    border: none;
+    padding: 8px 30px;
+    border-radius: 50px;
+}
+
+.sessao-contato-div{
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    color: #FFFFFF;
+    width: 300px;
+    border-bottom: 1px solid #FFFFFF;
+    text-align: start;
+    padding: 3px;
+}
+
+.sessao-contato-btn-e-div{
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+}
+
+.sessao-contato-div-btn{
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    padding: 8px 32px;
+    border-radius: 50px;
+    width: 118px;
+    height: 38px;
+    background: #0F9AFE;
+    color: #FFFFFF;
+    outline: 0;
+    border: none;
+}
+
+footer{
+    font-family: Sora;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    color: #293145;
+    padding: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
